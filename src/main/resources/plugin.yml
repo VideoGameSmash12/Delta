@@ -1,0 +1,12 @@
+name: Delta
+description: "A method to allow OmegaTrack to continue running after the Scissors patch"
+author: videogamesm12
+version: '${version}'
+main: me.videogamesm12.delta.Delta
+api-version: 1.20
+depend:
+  - ProtocolLib
+permissions:
+  delta.nocom_bypass:
+    description: "If players have this permission node, they can query players' coordinates even if they aren't in the same world."
+    default: false
